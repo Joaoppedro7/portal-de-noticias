@@ -54,7 +54,6 @@ h2,
 h3 {
   font: inherit;
 }
-
 img {
   max-width: 100%;
 }
@@ -89,5 +88,10 @@ img {
       "featured featured"
       "weekly weekly"
       "ai aside";
+  }
+}
+@media (24rem<width<=27rem) {
+  .container {
+    padding-inline: 0;
   }
 }

@@ -13,8 +13,8 @@
 #secondary {
   padding-block: 0.875rem;
   border: solid 1px var(--stroke-color);
-  margin-inline: -2rem;
-  padding-inline: 2rem;
+  margin-inline: -1.7rem;
+  padding-inline: 1.7rem;
   border-inline: none;
   overflow-x: auto;
   gap: 2rem;
@@ -33,9 +33,5 @@
   }
   #secondary {
     justify-content: space-between;
-    overflow-x: hidden;
-    width: 100%;
-    margin-inline: 0;
-    padding-inline: 0;
   }
 }
