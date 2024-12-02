@@ -1,0 +1,41 @@
+#primary {
+  padding-block: 1rem;
+
+  /* Nesting css */
+  & div:nth-child(2) {
+    margin-inline: auto;
+  }
+
+  & div:nth-child(3) {
+    justify-self: end;
+  }
+}
+#secondary {
+  padding-block: 0.875rem;
+  border: solid 1px var(--stroke-color);
+  margin-inline: -2rem;
+  padding-inline: 2rem;
+  border-inline: none;
+  overflow-x: auto;
+  gap: 2rem;
+  grid-auto-columns: max-content;
+}
+
+@media (width>=80em) {
+  #primary {
+    padding-block: 1.25rem;
+
+    & div {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+  #secondary {
+    justify-content: space-between;
+    overflow-x: hidden;
+    width: 100%;
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+}
