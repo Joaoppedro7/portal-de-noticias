@@ -57,9 +57,6 @@ h3 {
 img {
   max-width: 100%;
 }
-html {
-  overflow-x: hidden;
-}
 .container {
   max-width: 22.5rem;
   padding-inline: 1rem;

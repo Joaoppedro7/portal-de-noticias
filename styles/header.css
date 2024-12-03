@@ -13,8 +13,8 @@
 #secondary {
   padding-block: 0.875rem;
   border: solid 1px var(--stroke-color);
-  margin-inline: -1.4rem;
-  padding-left: 1.5rem;
+  margin-inline: -1.2rem;
+  padding-left: 1.2rem;
   border-inline: none;
   overflow-x: auto;
   gap: 2rem;
