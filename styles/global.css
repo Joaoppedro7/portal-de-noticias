@@ -12,7 +12,6 @@
   --stroke-color: #1e293b;
   --text-color-primary: #f1f5f9;
   --text-color-secondary: #cbd5e1;
-
   --font-family: "Archivo", sans-serif;
   --font-black: "Archivo Black", sans-serif;
   --h1: 800 1.5rem/135% var(--font-family);
@@ -37,6 +36,7 @@ main {
   margin-block: 2.5rem;
   row-gap: 2rem;
   column-gap: 2rem;
+  padding-inline: 1rem;
 
   grid-template-areas:
     "featured"
@@ -55,12 +55,21 @@ h3 {
   font: inherit;
 }
 img {
+  height: auto;
   max-width: 100%;
+  border-radius: 0.25rem;
 }
 .container {
-  max-width: 22.5rem;
-  padding-inline: 1rem;
+  min-width: 22.5rem;
   margin-inline: auto;
+}
+
+a {
+  font: var(--span);
+  color: var(--text-color-secondary);
+  text-decoration: none;
+  text-wrap: nowrap;
+  cursor: pointer;
 }
 
 .content-tag {
@@ -74,7 +83,6 @@ img {
   color: var(--text-color-primary);
   box-shadow: 0 4px 16px rgba(2, 6, 23, 0.251);
 }
-
 @media (width>=80em) {
   .container {
     max-width: 80rem;
@@ -88,10 +96,5 @@ img {
       "featured featured"
       "weekly weekly"
       "ai aside";
-  }
-}
-@media (24rem<width<=27rem) {
-  .container {
-    padding-inline: 0;
   }
 }

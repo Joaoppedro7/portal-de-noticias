@@ -5,11 +5,9 @@
 .grid-flow-col {
   grid-auto-flow: column;
 }
-
 .grid-cols {
   grid-template-columns: 1fr;
 }
-
 .gap-16 {
   gap: 0.9375rem;
 }
